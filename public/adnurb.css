@@ -1,0 +1,86 @@
+
+.main{
+    padding: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:darkblue;
+    box-shadow: 5px  5px 7px 5px blue;
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+input{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid blue;
+
+}
+
+input[type=submit]{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: blue;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+}
+.container{
+    align-items: center;
+    animation: forwards;
+}
+@media screen and (min-width: 100px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 5rem;
+    }
+  }
+ 
+
+input.box,
+select.box {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+select.box {
+    appearance: none;
+    -webkit-appearance: none; 
+    padding: 12px 20px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid blue;
+    width: 100%;
+    margin: 8px;
+    cursor: pointer;
+}
+
+/* Your existing styles for input[type=submit] and .container remain unchanged */
+
+@media screen and (min-width: 100px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 5rem;
+    }
+}
